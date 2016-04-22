@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>3 Column Layout</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<header id="header"> <p>
+						<img src="http://images.medicaldaily.com/sites/medicaldaily.com/files/styles/headline/public/2014/07/14/pills.jpg" alt="The Red Pill" style="width:304px;height:228px;">
+						<h1 style="text-align:center;">Place For Pills</h1></p>
+						
+						</header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+			
+				<h1>View</h1>
+				Add a table of records, each with a view/edit button 
+				<p>
+				
+				Example
+				</p>
+				<form>
+					<table style="width:100%">
+					  <tr>
+						<td>Transaction ID</td>
+						<td>Date</td> 
+						<td>$</td>
+						<td>Edit</td>
+						<td>Delete</td>
+					  </tr>
+					  <tr>
+						<td>1234</td>
+						<td>12/12/12</td> 
+						<td>$94</td>
+						<td><button type="button" onclick="alert('Error!')">Edit</button></td>
+						<td><input type="checkbox" name="Delete" value="Delete"></td>
+					  </tr>
+					</table>
+					<input type="submit" value="Submit">
+				</form>
+			</article>								
+		</main>
+
+		<nav id="left" class="column">
+			<h3>Navigation</h3>
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Add.html">Add</a></li>
+				<li><a href="View.html">View</a></li>
+				<li><a href="About.html">about</a></li>
+			</ul>
+		</nav>
+		<div id="right" class="column">
+			<h3>Other Stuff</h3>
+			<p></p>
+		</div>
+
+	</div>
+
+	<div id="footer-wrapper">
+		<footer id="footer"><p>Copywrite some people</p></footer>
+	</div>
+
+</body>
+
+</html>
